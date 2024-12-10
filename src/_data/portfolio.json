@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "name": "News Photos",
+      "images": ["news1.jpg", "news2.jpg"],
+      "description": "Highlights recent news events covered."
+    },
+    {
+      "name": "Music Photos",
+      "images": ["music1.jpg", "music2.jpg"],
+      "description": "Captures vibrant music performances."
+    },
+    {
+      "name": "Portraits",
+      "images": ["portrait1.jpg", "portrait2.jpg"],
+      "description": "Creative portraits showcasing personality."
+    }
+  ]
+}
