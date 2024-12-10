@@ -4,19 +4,22 @@
       "Name": "News Photography",
       "Date": "04/02/2024",
       "Description": "Protestors for Palestine demonstrate near an Israel campus celebration at the University of Texas.",
-      "slug": "news-photography"
+      "slug": "news-photography",
+      "Image": "News1.jpg"
     },
     {
       "Name": "Music Photography",
       "Date": "07/14/2023",
       "Description": "Oblivion Access Festival with performer F*ck Monkey taking the stage.",
-      "slug": "music-photography"
+      "slug": "music-photography",
+      "Image": "Music1.jpg"
     },
     {
       "Name": "Portrait Photography",
       "Date": "07/28/2023",
       "Description": "Adia Austin strikes a pose in the KUTX Studio.",
-      "slug": "portrait-photography"
+      "slug": "portrait-photography",
+      "Image": "Portraits1.jpg"
     }
   ]
 }

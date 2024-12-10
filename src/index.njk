@@ -6,22 +6,63 @@
 
 {% block content %}
 <div class="container">
-  <h1>2024 Final Project</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Music Photos loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
+  <h1>Amaya Austin's Portfolio</h1>
+  <p>Welcome to my  portfolio! I am eager to share and showcase my work with you. </p>
+  <h2>Look At My Work</h2>
   <div class="row">
-    {% for book in library.books %}
+    {% for photography in photos.photography %}
       <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+        <img src="img/{{ photography.Image }}" alt="Photo from { photography.Date }" class="img-fluid">
+        <h3><a href="photos/{{ photography.slug }}.html">{{ photography.Name }}</a></h3>
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
+   &nbsp;
+  <h2>Videography</h2>
+  <p>Take a look at my additional video work! </p>
   <hr>
-  {% for store in bookstores.stores %}
+    &nbsp;
+      &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Vw6BzSlYGWw?si=LKT7VFM-x4ar2p0d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  &nbsp;
+   &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+   &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+   &nbsp;
+  &nbsp;
+   &nbsp;
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/M_FjcKDbkKY?si=KD9mq4hLz3SCMUAf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     &nbsp;
+      &nbsp;
+  &nbsp;
+  &nbsp;
+     <br>  </br>
+  &nbsp;
+  &nbsp;
+     &nbsp;
+  &nbsp;
+  &nbsp;
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gRvM8eqvg88?si=qQJcLa6P1bOdcGI9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   &nbsp;
+  &nbsp;
+    &nbsp;
+  &nbsp;
+  &nbsp;
+   &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+   &nbsp;
+  &nbsp;
+   &nbsp;
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BsQvw_M0nZI?si=hZZiRv808-_F18wx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  {% for store in bookstores.stores %}
     <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
     <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
     <hr>
