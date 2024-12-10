@@ -10,7 +10,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Photography
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
             {% for photography in photos.photography %}
             <li><a class="dropdown-item" href="{{ relative_path }}photos/{{ photography.slug}}.html">{{ photography.Name }}</a></li>
             {% endfor %}

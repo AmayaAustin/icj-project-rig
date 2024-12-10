@@ -56,4 +56,22 @@ p {
   color: #000;
 }
 
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video-container iframe {
+  width: 630px; 
+  height: 315px; 
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .video-container iframe {
+    width: 100%;  
+    height: auto;  
+  }
+}
 
